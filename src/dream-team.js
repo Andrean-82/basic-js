@@ -18,10 +18,12 @@ function createDreamTeam(members) {
   let nameTeam ="";
   for (let elem = 0; elem < members.length; elem++){
     if (typeof members[elem] === "string" && members[elem].length !=0){
-      members[elem] = members[elem][0].toUpperCase();
-    } 
+      nameTeam += members[elem][0].toUpperCase();
   }
-  return members.sort().join(""); 
+  
+  // return false;
+}
+return nameTeam.split("").sort().join(""); 
 }
 module.exports = {
   createDreamTeam
