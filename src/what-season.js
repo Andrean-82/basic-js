@@ -14,8 +14,11 @@ const { NotImplementedError } = require('../extensions/index.js');
 function getSeason(date) {
   throw new NotImplementedError('Not implemented');
   if (!date){console.log('Unable to determine the time of year!');}
+  
     try {
+      
       let month = springDate.getMonth();
+      let day = springDate.getDay();
       console.log(month);
       if(month === undefined){console.log('Unable to determine the time of year!');
       }
