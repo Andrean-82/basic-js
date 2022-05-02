@@ -26,7 +26,7 @@ function transform(arr) {
   
   for(let elem = 0; elem < arr.length; elem++){
     
-    if (!arr[elem]) continue;      
+    if (!arr[elem]) continue;
     if (arr[elem] === delbefore){
       if(arr[elem-1] && arr[elem-2] != delafter){
         arrNew.pop();
