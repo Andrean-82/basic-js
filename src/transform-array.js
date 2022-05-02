@@ -14,7 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 function transform(arr) {
-  throw new NotImplementedError('Not implemented');
+  // throw new NotImplementedError('Not implemented');
   const delbefore = "--discard-prev";
   const delafter = "--discard-next";
   const doubleafter = "--double-next";
